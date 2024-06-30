@@ -461,10 +461,15 @@ ul .mav__list{
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 260px;
+  width: 200px;
 }
 .home__blob {
   fill: var(--first-color);
+  width: 80%;
+  position: absolute;
+  right: 0;
+  bottom: 100px;
+
 }
 .home__blob-img {
   width: 360px;
@@ -630,7 +635,9 @@ ul .mav__list{
 }
 
 
-
+.logo{
+  width: 110px;
+}
 
 
 /*BUTTONS*/
@@ -659,7 +666,7 @@ ul .mav__list{
   justify-self: center;
 }
 .about__img img {
-  width: 200px;
+  width: 150px;
   border-radius: 0.5rem;
 }
 
